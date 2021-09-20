@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/Geral/Clion/P1_Labirinto/Labirinto/Pilha.cpp">
+			<Option target="Labirinto"/>
+		</Unit>
+		<Unit filename="E:/Geral/Clion/P1_Labirinto/Labirinto/Pilha.h">
+			<Option target="Labirinto"/>
+		</Unit>
 		<Unit filename="E:/Geral/Clion/P1_Labirinto/Labirinto/main.cpp">
 			<Option target="Labirinto"/>
 		</Unit>

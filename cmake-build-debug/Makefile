@@ -128,6 +128,30 @@ Labirinto/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labirinto.dir\build.make CMakeFiles/Labirinto.dir/build
 .PHONY : Labirinto/fast
 
+Pilha.obj: Pilha.cpp.obj
+.PHONY : Pilha.obj
+
+# target to build an object file
+Pilha.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labirinto.dir\build.make CMakeFiles/Labirinto.dir/Pilha.cpp.obj
+.PHONY : Pilha.cpp.obj
+
+Pilha.i: Pilha.cpp.i
+.PHONY : Pilha.i
+
+# target to preprocess a source file
+Pilha.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labirinto.dir\build.make CMakeFiles/Labirinto.dir/Pilha.cpp.i
+.PHONY : Pilha.cpp.i
+
+Pilha.s: Pilha.cpp.s
+.PHONY : Pilha.s
+
+# target to generate assembly for a file
+Pilha.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labirinto.dir\build.make CMakeFiles/Labirinto.dir/Pilha.cpp.s
+.PHONY : Pilha.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Labirinto
+	@echo ... Pilha.obj
+	@echo ... Pilha.i
+	@echo ... Pilha.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

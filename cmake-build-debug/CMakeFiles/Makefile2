@@ -80,12 +80,12 @@ clean: CMakeFiles/Labirinto.dir/clean
 CMakeFiles/Labirinto.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labirinto.dir\build.make CMakeFiles/Labirinto.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labirinto.dir\build.make CMakeFiles/Labirinto.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Geral\Clion\P1_Labirinto\Labirinto\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Labirinto"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Geral\Clion\P1_Labirinto\Labirinto\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target Labirinto"
 .PHONY : CMakeFiles/Labirinto.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Labirinto.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Geral\Clion\P1_Labirinto\Labirinto\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Geral\Clion\P1_Labirinto\Labirinto\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Labirinto.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\Geral\Clion\P1_Labirinto\Labirinto\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Labirinto.dir/rule

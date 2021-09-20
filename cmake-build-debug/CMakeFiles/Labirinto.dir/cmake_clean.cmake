@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Labirinto.dir/Pilha.cpp.obj"
   "CMakeFiles/Labirinto.dir/main.cpp.obj"
   "Labirinto.exe"
   "Labirinto.exe.manifest"

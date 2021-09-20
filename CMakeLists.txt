@@ -3,4 +3,4 @@ project(Labirinto)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Labirinto main.cpp)
+add_executable(Labirinto main.cpp Pilha.cpp Pilha.h)

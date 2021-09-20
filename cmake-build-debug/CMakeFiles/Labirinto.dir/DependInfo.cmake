@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "E:/Geral/Clion/P1_Labirinto/Labirinto/Pilha.cpp" "E:/Geral/Clion/P1_Labirinto/Labirinto/cmake-build-debug/CMakeFiles/Labirinto.dir/Pilha.cpp.obj"
   "E:/Geral/Clion/P1_Labirinto/Labirinto/main.cpp" "E:/Geral/Clion/P1_Labirinto/Labirinto/cmake-build-debug/CMakeFiles/Labirinto.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
