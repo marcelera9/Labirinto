@@ -12,7 +12,7 @@
 using namespace std;
 
 constexpr int MAXPILHA = 100;
-using TipoDado = char;
+using TipoDado = int;
 
 class Pilha {
 private:
