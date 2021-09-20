@@ -5,5 +5,4 @@ CMakeFiles/Labirinto.dir/Pilha.cpp.obj: \
  ../Pilha.cpp \
  ../Pilha.h
 CMakeFiles/Labirinto.dir/main.cpp.obj: \
- ../Pilha.h \
  ../main.cpp

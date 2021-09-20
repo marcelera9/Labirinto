@@ -38,6 +38,7 @@ int main() {
 
     cout << "Marcelo Luiz M. E." << endl;
     cout << "Labirinto" << endl;
+
     for (i=0; i<20; ++i){
         cout << endl;
         for (j=0; j<21; ++j){
@@ -51,7 +52,16 @@ int main() {
 
 bool testaSolucao (vector<string> labirinto, stack<Coordenadas> s) {
     do {
-        
+        bool aux = false;
+        for (int j = s.top().x - 1; j<=s.top().x + 1; ++j) {
+            if (aux)
+                break;
+            if (j >= 0 || j <= 21) {
+                if (labirinto[s.top().x][j] == 0){
+                    //labirinto[s.top().x][j] = ;
+                }
+            }
+        }
     } while (!s.empty());
     return false;
 }
