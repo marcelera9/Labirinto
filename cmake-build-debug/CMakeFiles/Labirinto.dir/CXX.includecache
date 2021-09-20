@@ -6,9 +6,21 @@
 
 #IncludeRegexTransform: 
 
+E:/Geral/Clion/P1_Labirinto/Labirinto/Pilha.h
+iostream
+-
+string
+-
+array
+-
+
 E:/Geral/Clion/P1_Labirinto/Labirinto/main.cpp
 iostream
 -
 array
+-
+Pilha.h
+E:/Geral/Clion/P1_Labirinto/Labirinto/Pilha.h
+vector
 -
 
