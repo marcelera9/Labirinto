@@ -1,12 +1,16 @@
 #include <iostream>
 #include <array>
-#include "Pilha.h"
 #include <vector>
+#include <stack>
 
 using namespace std;
 
+struct Coordenadas {
+    int x,y;
+};
+
 int main() {
-    Pilha p;
+    stack<Coordenadas> s;
     int i,j;
 
     vector<string> labirinto = {
@@ -40,4 +44,14 @@ int main() {
             cout << labirinto[i][j];
         }
     }
+
+    Coordenadas entrada = Coordenadas({10,0});
+    s.push(entrada);
+}
+
+bool testaSolucao (vector<string> labirinto, stack<Coordenadas> s) {
+    do {
+        
+    } while (!s.empty());
+    return false;
 }
