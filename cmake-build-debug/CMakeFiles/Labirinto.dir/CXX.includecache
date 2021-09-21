@@ -9,10 +9,8 @@
 E:/Geral/Clion/P1_Labirinto/Labirinto/main.cpp
 iostream
 -
-array
--
-vector
--
 stack
+-
+cstdlib
 -
 
